@@ -1,14 +1,28 @@
-//get Element into  varaible
-var input = document.getElementById("input");
-var btn = document.getElementById("btn");
-var msg = document.getElementById("msg");
+var btnn = document.querySelector(".btn");
+var mydiv = document.querySelector(".mydiv");
 
-//Events 
-btn.onclick = function (){
-    var inputValue = input.value;
+var color =["red" , "blue" , "green"]
+ 
+    var i=0;
+    btnn.onclick = function(){
 
-    msg.innerHTML = inputValue;
-    input.value= "";
-    if(inputValue >5 )
-        input.value =0;
+ mydiv.style.background = color[i];
+ 
+i++;
+
+
+
+if(mydiv.oneclick){
+
+ if(i==3)
+    i=0;
+
 }
+
+
+
+
+
+}
+
+

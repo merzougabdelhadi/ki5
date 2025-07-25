@@ -11,41 +11,34 @@
 body{
    background-color: springgreen;
    height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: 'Courier New', Courier, monospace;
 }
-.print-message-box{
-width: 800px;
-padding: 30px 700px;
-border: 1px solid rebeccapurple;
-background-color: gray;
-border-radius: 20%;
-}
-input,button{
-   width: 500px;
-   height: 50px;
-   padding: 5px ;
-   margin-bottom: 5px;
-
+div{
+   margin: 50px;
+   padding: 100px;
 }
 button{
-   background-color: rosybrown;
-   color: aliceblue;
-   font-size: 30px;
+width: 200px;
+height: 50px;
+   padding: 10px;
+   margin: 20px 0 0 0;
+   background-color: aqua;
    cursor: pointer;
    opacity: 0.7;
+   font-size: large;
    transition: 0.5;
-   text-align: center;
-   border: 0;
+ 
 }
 button:hover{
-   opacity: 1;
-color: aqua;
+   opacity: 1s;
+   color: red;
 }
-p{
-   color: black;
-   font-size: 80px;
-   margin: 5px 0 0  0;
-}
+
+
+
+.mydiv{
+  background-color: cadetblue;
+  width: 100px;
+  height: 50px;
+  border: 1px solid ;
+
+   }
