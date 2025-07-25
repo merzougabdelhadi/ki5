@@ -1,28 +1,29 @@
-var btnn = document.querySelector(".btn");
-var mydiv = document.querySelector(".mydiv");
+var input =document.querySelector("#input");
+var btn = document.querySelector("#brn");
 
-var color =["red" , "blue" , "green"]
- 
-    var i=0;
-    btnn.onclick = function(){
+btn.addEventListener('click' , toggle )
+ function toggle(){
+if(btn.getAttribute('data-text') == "show"){
+    input.setAttribute('type' , 'text');
+    btn.setAttribute('data-text' , 'hide');
 
- mydiv.style.background = color[i];
- 
-i++;
+    btn.innerHTML ="Hide";}
+else{
+
+    input.setAttribute('type' , 'password');
+    btn.setAttribute('data-text' , 'show');
+
+    btn.innerHTML ="Show";
 
 
 
-if(mydiv.oneclick){
 
- if(i==3)
-    i=0;
+
+
+
+
 
 }
-
-
-
-
-
 }
 
 
